@@ -1,0 +1,52 @@
+[
+  {
+    "id": "concept-functions",
+    "name": "Functions",
+    "slug": "functions",
+    "subject": "Programming",
+    "order_index": 1,
+    "description": "Modular code blocks, parameter passing, return values, and variable scope in procedural execution.",
+    "prerequisites": [],
+    "required_mastery": 70.0
+  },
+  {
+    "id": "concept-arrays",
+    "name": "Arrays",
+    "slug": "arrays",
+    "subject": "Programming",
+    "order_index": 2,
+    "description": "Contiguous memory structures, zero-indexed access, iteration, in-place manipulation, and slice operations.",
+    "prerequisites": ["concept-functions"],
+    "required_mastery": 70.0
+  },
+  {
+    "id": "concept-recursion",
+    "name": "Recursion",
+    "slug": "recursion",
+    "subject": "Programming",
+    "order_index": 3,
+    "description": "Self-referential algorithms, base cases, recurrence relations, and call stack memory mechanics.",
+    "prerequisites": ["concept-arrays"],
+    "required_mastery": 75.0
+  },
+  {
+    "id": "concept-trees",
+    "name": "Trees",
+    "slug": "trees",
+    "subject": "Programming",
+    "order_index": 4,
+    "description": "Hierarchical non-linear structures, binary search trees, and recursive traversals (Preorder, Inorder, Postorder).",
+    "prerequisites": ["concept-recursion"],
+    "required_mastery": 75.0
+  },
+  {
+    "id": "concept-graphs",
+    "name": "Graphs",
+    "slug": "graphs",
+    "subject": "Programming",
+    "order_index": 5,
+    "description": "Complex network topologies, adjacency structures, cycles, and traversal algorithms (DFS, BFS, Dijkstra).",
+    "prerequisites": ["concept-trees"],
+    "required_mastery": 80.0
+  }
+]
